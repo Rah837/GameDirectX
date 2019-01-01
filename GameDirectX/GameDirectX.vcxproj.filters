@@ -13,5 +13,89 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Исходные файлы\Core">
+      <UniqueIdentifier>{809097bd-a7e8-40d9-a127-23a836c2126c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\MainWindow">
+      <UniqueIdentifier>{c88cbd63-77eb-496f-915f-b25a1d517a4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Core\Common">
+      <UniqueIdentifier>{db582703-4a2c-4718-81ec-f0904651e0cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Core\Input">
+      <UniqueIdentifier>{26c910f6-ba29-41f6-9215-113e50ff5305}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Исходные файлы\Core\Window">
+      <UniqueIdentifier>{b46981b3-27e2-4ebe-a84d-59d7180f33c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Core">
+      <UniqueIdentifier>{bff9e556-95fa-47ac-8fee-e0e4458ab4ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\MainWindow">
+      <UniqueIdentifier>{3ea42535-b971-4dc5-b7f0-003133156650}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Core\Common">
+      <UniqueIdentifier>{4d47a931-bf0b-447f-a489-99b8d5167cb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Core\Input">
+      <UniqueIdentifier>{2c5b22d6-9611-45bd-ad95-c5c27a7cd08e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы заголовков\Core\Window">
+      <UniqueIdentifier>{7f0b89af-d84a-4ccc-881c-21394ba7c950}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Файлы ресурсов\Shaders">
+      <UniqueIdentifier>{62a236ec-139d-4b35-8d63-654eb96fccd7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Sources\main.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Core\Common\Log.cpp">
+      <Filter>Исходные файлы\Core\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Core\Common\Util.cpp">
+      <Filter>Исходные файлы\Core\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Core\Input\InputListener.cpp">
+      <Filter>Исходные файлы\Core\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Core\Window\Window.cpp">
+      <Filter>Исходные файлы\Core\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Core\Window\RenderWindow.cpp">
+      <Filter>Исходные файлы\Core\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\MainWindow\MainWindow.cpp">
+      <Filter>Исходные файлы\MainWindow</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Sources\Core\Common\Log.hpp">
+      <Filter>Файлы заголовков\Core\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Core\Common\Util.hpp">
+      <Filter>Файлы заголовков\Core\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Core\Input\InputCodes.hpp">
+      <Filter>Файлы заголовков\Core\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Core\Input\InputListener.hpp">
+      <Filter>Файлы заголовков\Core\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Core\Window\Window.hpp">
+      <Filter>Файлы заголовков\Core\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Core\Window\RenderWindow.hpp">
+      <Filter>Файлы заголовков\Core\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\MainWindow\MainWindow.hpp">
+      <Filter>Файлы заголовков\MainWindow</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Data\Shaders\Basic.hlsl">
+      <Filter>Файлы ресурсов\Shaders</Filter>
+    </FxCompile>
   </ItemGroup>
 </Project>
