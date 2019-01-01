@@ -44,13 +44,10 @@
       <UniqueIdentifier>{7f0b89af-d84a-4ccc-881c-21394ba7c950}</UniqueIdentifier>
     </Filter>
     <Filter Include="Файлы ресурсов\Shaders">
-      <UniqueIdentifier>{62a236ec-139d-4b35-8d63-654eb96fccd7}</UniqueIdentifier>
+      <UniqueIdentifier>{5bdf5fc0-394f-4876-bfb6-b0749d8f7397}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Sources\main.cpp">
-      <Filter>Исходные файлы</Filter>
-    </ClCompile>
     <ClCompile Include="Sources\Core\Common\Log.cpp">
       <Filter>Исходные файлы\Core\Common</Filter>
     </ClCompile>
@@ -68,6 +65,9 @@
     </ClCompile>
     <ClCompile Include="Sources\MainWindow\MainWindow.cpp">
       <Filter>Исходные файлы\MainWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\main.cpp">
+      <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -94,7 +94,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <FxCompile Include="Data\Shaders\Basic.hlsl">
+    <FxCompile Include="Data\Shaders\Basic.fx">
       <Filter>Файлы ресурсов\Shaders</Filter>
     </FxCompile>
   </ItemGroup>
